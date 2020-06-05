@@ -1,7 +1,7 @@
 <import src="../../component/nullTip/nullTip.wxml"/>
 <view class="tab">
     <view class="tab-header">
-        <view class="tab-header-item {{show == tabitem.id ? 'tab-header-active' : ''}}"   wx:for="{{tabsList}}"  wx:key="tabitem" wx:for-item="tabitem" data-type="{{tabitem.id}}" bindtap="changeViewType">{{tabitem.name}}</view>
+        <view class="tab-header-item {{show == tabitem.id ? 'tab-header-active' : ''}}"   wx:for="{{tabsList}}"  wx:key="tabitem" wx:for-item="tabitem" data-type="{{tabitem.id}}"  bindtap="changeViewType">{{tabitem.name}}</view>
 
     </view>
     <view class="tab-content">

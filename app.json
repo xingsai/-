@@ -2,10 +2,11 @@
   "pages": [
     "pages/goodsExchangeRecovery/goodsExchangeRecovery",
     "pages/exchangeList/exchangeList",
+    "pages/index/index",
 
-    "pages/orderDetail/orderDetail",
 
-    "pages/index/index"
+    "pages/orderDetail/orderDetail"
+
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -32,6 +33,7 @@
         "selectedIconPath": "static/images/list_active.png",
         "text": "兑换记录"
       }
+
     ]
   },
   "networkTimeout": {

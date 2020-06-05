@@ -3,7 +3,7 @@
 Page({
   data:{
     orderList: [
-      {
+     /* {
         timeOOO:'2019-12-11 12:12:12',
         nameooo:'商超卡',
         companyooo:'物美',
@@ -29,7 +29,7 @@ Page({
         prizeooo:'100元',
         backprizeoo:'100元',
         id000:'100元',
-      }
+      }*/
     ],
     person_history: [],
     tabsList: [
@@ -47,6 +47,7 @@ Page({
     wx.getStorage({
       key: 'person_history',
       success: function(res){
+
         that.setData({
           person_history: res.data
         })
